@@ -2,7 +2,11 @@
 <p>it is a website where you can view a actual view of the house </p>
 <p>we are ging to use google maps to show the actual location </p>
 <p>using mern stack</p>
+<<<<<<< HEAD
 <p> 3d images </p>
+=======
+<p>3D images </p>
+>>>>>>> 94854107a2a066a8e6cb1ba3259e8284afc1c41e
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
