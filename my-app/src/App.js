@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   return (
+    <div>
     <div className="navbar">
        <ul id="navbar">
             <li>Home</li>
@@ -13,6 +14,10 @@ function App() {
             
         </ul>   
     </div>
+    <div>
+      
+    </div>
+   </div>
   );
 }
 
