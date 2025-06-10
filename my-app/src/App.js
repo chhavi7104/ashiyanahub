@@ -14,11 +14,15 @@ function App() {
             
         </ul>   
     </div>
+     
     <div>
-      
+     
     </div>
    </div>
   );
 }
-
+// App.js
+// This is the main component of your React application
+// It renders the navigation bar and can be extended with more components
+// You can add more components or routes as needed
 export default App;
