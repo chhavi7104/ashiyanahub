@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+// import './navbar.css'; // Assuming you have a navbar.css file for styles
 function App() {
   return (
     <div>
