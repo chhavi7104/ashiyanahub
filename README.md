@@ -4,11 +4,6 @@
 <p>we are ging to use google maps to show the actual location </p>
 <p>using mern stack</p>
 
-
-
-
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
