@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-import jwt_decode from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
 
 const initialState = {
   token: localStorage.getItem('token'),
@@ -94,7 +94,7 @@ const authSlice = createSlice({
         state.token = action.payload.token;
         state.isAuthenticated = true;
         state.loading = false;
-        state.user = jwt_decode(action.payload.token).user;
+        state.user = jwtDecode(action.payload.token).user;
       })
       .addCase(register.rejected, (state, action) => {
         localStorage.removeItem('token');
@@ -109,7 +109,7 @@ const authSlice = createSlice({
         state.token = action.payload.token;
         state.isAuthenticated = true;
         state.loading = false;
-        state.user = jwt_decode(action.payload.token).user;
+        state.user = jwtDecode(action.payload.token).user;
       })
       .addCase(login.rejected, (state, action) => {
         localStorage.removeItem('token');

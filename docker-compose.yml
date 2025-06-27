@@ -8,11 +8,11 @@ services:
     environment:
       - NODE_ENV=production
       - MONGO_URI=mongodb://mongo:27017/aashiyanahub
-      - JWT_SECRET=your_jwt_secret
+      - JWT_SECRET=39a6e7e793ff847b25e3bf07e0d8606fe988879b4dd0e6a53e22805e1577589e
       - ELASTICSEARCH_URL=http://elasticsearch:9200
-      - CLOUDINARY_CLOUD_NAME=your_cloud_name
-      - CLOUDINARY_API_KEY=your_api_key
-      - CLOUDINARY_API_SECRET=your_api_secret
+      - CLOUDINARY_CLOUD_NAME=dpsn5e0nd
+      - CLOUDINARY_API_KEY=964193625613431
+      - CLOUDINARY_API_SECRET=upnLSa-uUYmyIYCSZXQK_CEw-os
     depends_on:
       - mongo
       - elasticsearch
