@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "nodemon server.js", 
+     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +13,7 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "@elastic/elasticsearch": "^9.0.2",
+   
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
@@ -23,5 +25,9 @@
     "mongoose": "^8.16.1",
     "morgan": "^1.10.0",
     "multer": "^2.0.1"
+  },
+   "devDependencies": {
+    "nodemon": "^3.1.0"
   }
+  
 }
